@@ -1,0 +1,533 @@
+
+    /***********************head nav 回到顶部**********************************/
+*{
+    margin: 0;
+    padding:0;
+    font-family: '微软雅黑';
+    list-style:none;
+}
+.head{
+    background: black;
+    height:30px;
+    line-height: 30px;
+}
+.head img{
+    margin-left:32px;
+    margin-top:6px;
+    float: left;
+    cursor: pointer;
+}
+.div1{
+    color:#0AD7A2;
+    font-size: 17px;
+    /*margin-left: 50px;*/
+    float: left;
+    cursor: pointer;
+}
+.div2{
+    color:lightgray;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+.div3{
+    color:lightgray;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+}
+.nav{
+    height:55px;
+    border-bottom: 1px solid lightgray;
+    background-color: #FAFAFA;
+    position: relative;
+}
+.nav img{
+    position: absolute;
+    left:160px;
+    top:6px
+}
+.nav .p1{
+    position: absolute;
+    left:276px;
+    top:20px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.nav .p2{
+    position: absolute;
+    left:336px;
+    top:27px;
+    font-size: 10px;
+    color:darkgrey;
+}
+.nav ul{
+    position: absolute;
+    left:404px;
+    list-style: none;
+
+}
+.nav ul li{
+    float: left;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 35px;
+    width: 45px;
+    height: 38px;
+}
+.nav ul li a:link{
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    padding-bottom: 15px;
+    color: #000;
+    border-bottom: 2px solid mediumseagreen;
+
+}
+.nav ul img{
+    margin-left: 155px;
+}
+.box{
+    width: 1024px;
+    margin: 37px auto;
+    /*border:1px solid black;*/
+    height: auto;
+    position: relative;
+}
+.box #left{
+    width: 230px;
+    height: auto;
+    position: absolute;
+    z-index:222;
+}
+.box #right{
+    width: 740px;
+    height: auto;
+    /*background: lightblue;*/
+    position: absolute;
+    left:284px;
+    top:0;
+    z-index:1;
+}
+
+#Btn{
+    background: url(../img/backtop.png) left top no-repeat;
+    width: 28px;
+    height: 64px;
+    position: fixed;
+    left: 50%;
+    bottom: 140px;
+    margin-left: 548px;
+    cursor: pointer;
+}
+/***********************head nav 回到顶部**********************************/
+/***********************left**********************************/
+.leftselect ul{
+    list-style: none;
+    float: left;
+    background: #FAFAFA;
+}
+.leftselect ul li{
+    width: 210px;
+    font-size: 18px;
+    padding: 20px;
+
+}
+.leftselect ul li p{
+    position: relative;
+}
+.leftselect ul li span{
+    width: 13px;
+    height: 14px;
+    background: url(../img/arr_7b73530.png) 0 0 no-repeat;
+    float: right;
+    margin-top: -20px;
+}
+.leftselect ul li a{
+    color: black;
+}
+.leftselect ul li a:link{
+    font-size: 15px;
+    text-decoration: none;
+    margin-right:12px;
+}
+.leftselect ul li a:hover{
+    text-decoration: underline;
+    color:#0AD7A2;
+}
+.leftselect div{
+    display: none;
+    width: 850px;
+    height: auto;
+    font-size: 14px;
+}
+.leftselect ul li.on{
+    background: white;
+    border:2px solid darkgrey;
+    border-right: none;
+}
+.leftselect div.on{
+    display: block;
+    border:2px solid darkgrey;
+    background: white;
+}
+.leftbtn {
+    position: absolute;
+    top:800px;
+    width: 250px;
+    height:40px;
+    background: #FAFAFA;
+    border-bottom: 4px solid #0AD7A2;
+}
+.leftbtn a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+.leftbtn a:hover{
+    color: #0AD7A2;
+}
+.leftselect dl{
+    width: 500px;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+.leftselect .dt1{
+    margin-left: 10px;
+    float: left;
+}
+.leftselect .dt1 a{
+    color: #000;
+}
+.leftselect .dt1 a:hover{
+    color: #0AD7A2;
+}
+.leftselect dd{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 350px;
+    font-size: 14px;
+}
+.leftselect dd a{
+    margin-right: 9px;
+    text-decoration: none;
+    color: #000;
+}
+.leftselect dd a:hover{
+    color: #0AD7A2;
+    border-bottom: 1px solid #0AD7A2;
+}
+/* .leftselect dl dt{
+    position: relative;
+     top:20px;
+     border:1px solid black;
+ }
+ .leftselect dl dd{
+    !*margin-left: 200px;  *!
+
+     margin-top: -700px;
+     border:1px solid black;
+     float: left;
+    }*/
+
+/***********************left**********************************/
+/***********************search**********************************/
+.searchbox{
+    width: 740px;
+    height: auto;
+    text-align: center;
+}
+.searchbox div{
+    width: 100%;
+}
+.searchbox div input{
+    width: 570px;
+    height: 23px;
+    line-height: 23px;
+    float: left;
+    font-size: 16px;
+    padding: 5px 8px 5px 10px;
+    margin: 0;
+    border: 2px solid #00b38a;
+    border-right: 0;
+}
+.searchbox div span{
+    width: 150px;
+    height: 37px;
+    font-size: 18px;
+    float: left;
+    background: #00b38a;
+    color: white;
+    text-align: center;
+    line-height: 37px;
+    cursor: pointer;
+}
+#hot{
+    padding-top: 45px;
+}
+#hot a{
+    color: #0AD7A2;
+}
+#hot a:link{
+    font-size: 14px;
+    text-decoration: none;
+    margin-right:14px;
+}
+#hot a:hover{
+    text-decoration: underline;
+    color:#0AD7A2;
+}
+/***********************search**********************************/
+/***********************banner**********************************/
+.banner{
+    width: 744px;
+    height: 160px;
+    position: relative;
+    margin:30px auto;
+    overflow: hidden;
+}
+.banner .boxInner{
+    width: 612px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.banner .boxInner div{
+    width: 613px;
+    height: 160px;
+    float: left;
+}
+.banner .boxInner div img{
+    width: 100%;
+    height: 100%;
+}
+.banner ul{
+    float: right;
+    width: 121px;
+    height: 160px;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+.banner ul li{
+    margin-bottom: 5px;
+    width: 113px;
+    height: 42px;
+    border: 4px solid #d3d3d3;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.4;
+    filter:alpha(opacity:40);
+    /*z-index:23;*/
+}
+.banner ul li.on{
+    opacity:1;
+    filter:alpha(opacity:1);
+    border: 4px solid #00b38a;
+}
+/***********************banner**********************************/
+/***********************through**********************************/
+#through div{
+    width: 113px;
+    height: 113px;
+    /*background: lightcyan;*/
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin:0 5px;
+    background-position: center;
+    background-repeat:  no-repeat;
+    box-shadow: 0 0 10px #ccc;
+    font-family: "正楷";
+}
+#through div.bg1{
+    background-image: url("../img/through1.png");
+    background-size: 100% 100%;
+
+}
+#through div.bg2{
+    background-image: url("../img/through4.jpg");
+    background-size: 100% 100%;
+}
+#through div.bg3{
+    background-image: url("../img/through2.jpg");
+    background-size: 100% 100%;
+}
+#through div.bg4{
+    background-image: url("../img/through3.png");
+    background-size: 100% 100%;
+}
+#through div.bg5{
+    background-image: url("../img/through6.jpg");
+    background-size: 100% 100%;
+}
+#through div.bg6{
+    background-image: url("../img/through5.png");
+    background-size: 100% 100%;
+}
+#through div span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:-200px;
+    top:0;
+    background: darkgreen;
+    color:white;
+    opacity: 0.8;
+    filter:alpha(opacity=80);
+
+}
+#through div span i{
+    font-size: 14px;
+}
+/***********************through**********************************/
+/***********************select**********************************/
+.select{
+    width: 740px;
+    height:auto;
+    margin:180px auto;
+}
+.select #selectul{
+    height: 40px;
+    width: 740px;
+    background: lavender;
+    color: lightslategrey;
+    cursor: pointer;
+}
+.select #selectul li{
+    width: 115px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+.select div{
+    clear: both;
+    width:740px;
+    height:100px;
+    display: none;
+}
+.select #selectul li.on{
+    border-top: 3px solid #0AD7A2;
+    background: white;
+    color: #000;
+
+}
+.select div.show{
+    display: block;
+}
+.tab{
+    width: 740px;
+    height: 160px;
+    margin: 10px auto;
+}
+.tab .bag div{
+    font-size: 13px;
+}
+.tab .bag .left{
+    width:430px;
+    float: left;
+}
+.tab .bag .right{
+    width: 310px;
+    float: left;
+}
+.tab .bag a{
+    color: #0AD7A2;
+    font-size: 16px;
+    text-decoration: none;
+}
+.tab span{
+    margin-left: 10px;
+}
+.tab .bag .leftspan span{
+    border:1px solid #cccccc;
+}
+.tab .bag .tabbg1{
+    height:40px;
+    line-height: 40px;
+}
+.tab .bag .tabbg2{
+    height:40px;
+    line-height: 40px;
+    background: #FAFAFA;
+    border-bottom: 1px dashed #cccccc;
+}
+
+/***********************select**********************************/
+/***********************footer**********************************/
+#footBox{
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 333;
+}
+#footBox #footer{
+    float: left;
+    background: #0AD7A2;
+    width: 1024px;
+    height:60px;
+}
+#footBox #footer em{
+    float: left;
+    position: absolute;
+    top:-60px;
+}
+#footBox #footer img{
+    margin-left:55px;
+    margin-top: 7px;
+}
+#footBox #footer span{
+    color: #FAFAFA;
+}
+#footBox  #footer .foots1{
+    font-size: 40px;
+    margin-left: 265px;
+}
+#footBox #footer .foots2{
+    font-size: 40px;
+    margin-left: 60px;
+}
+#footBox .sign{
+    float: left;
+    width: 140px;
+    background: #00b38a;
+    font-size: 26px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    cursor: pointer;
+}
+#footBox .enroll{
+    float: left;
+    width: 185px;
+    background: lightcoral;
+    font-size: 26px;
+    height:60px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.footnav a{
+    margin-left: 12px;
+    color: #000;
+    text-decoration: none;
+}
+.footnav a:hover{
+    color: #0AD7A2;
+    border-bottom: 1px solid #0AD7A2;
+}
+.footn1{
+    /*margin-top: 4600px;*/
+    position: relative;
+    top:4500px;
+}
+/***********************footer**********************************/
